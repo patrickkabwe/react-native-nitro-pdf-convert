@@ -1,6 +1,6 @@
 # react-native-nitro-pdf-convert
 
-[33mreact-native-nitro-pdf-convert[39m is a react native package built with Nitro
+react-native-nitro-pdf-convert is a react native package built with Nitro
 
 [![Version](https://img.shields.io/npm/v/react-native-nitro-pdf-convert.svg)](https://www.npmjs.com/package/react-native-nitro-pdf-convert)
 [![Downloads](https://img.shields.io/npm/dm/react-native-nitro-pdf-convert.svg)](https://www.npmjs.com/package/react-native-nitro-pdf-convert)

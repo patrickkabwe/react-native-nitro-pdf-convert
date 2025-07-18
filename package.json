@@ -1,7 +1,7 @@
 {
   "name": "react-native-nitro-pdf-convert",
   "version": "0.1.0",
-  "description": "\u001b[33mreact-native-nitro-pdf-convert\u001b[39m is a react native package built with Nitro",
+  "description": "react-native-nitro-pdf-convert is a react native package built with Nitro",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
@@ -13,7 +13,7 @@
     "release": "semantic-release",
     "build": "bun run typecheck && bob build",
     "codegen": "nitro-codegen --logLevel=\"debug\" && bun run build && node post-script.js",
-    "postcodegen": "bun --cwd example run pod"
+    "postcodegen": "bun --cwd example pod"
   },
   "keywords": [
     "react-native",
@@ -56,11 +56,11 @@
     "@semantic-release/git": "^10.0.1",
     "@types/jest": "^29.5.12",
     "@types/react": "^19.0.10",
-    "nitro-codegen": "0.25.2",
+    "nitro-codegen": "^0.26.4",
     "react": "19.0.0",
     "react-native": "0.79.2",
     "react-native-builder-bob": "^0.37.0",
-    "react-native-nitro-modules": "0.25.2",
+    "react-native-nitro-modules": "^0.26.4",
     "conventional-changelog-conventionalcommits": "^9.0.0",
     "semantic-release": "^24.2.3",
     "typescript": "5.0.4"
